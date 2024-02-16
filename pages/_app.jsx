@@ -4,11 +4,19 @@ const GlobalStyle = createGlobalStyle`
   * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
+  
 }
 
 body {
   font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+  color: #3a3a3a;
+}
+
+a {
+  color: #8933cd;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 `
