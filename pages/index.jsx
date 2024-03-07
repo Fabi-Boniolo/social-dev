@@ -51,12 +51,7 @@ function HomePage({ user }) {
       <Content>
         <Container>
           <CreatePost username={ user.user } />
-          <LastPostText>
-            <H3>Últimas postagens: </H3>
-          </LastPostText>
-          <RefreshPostsContainer>
-            <RefreshPosts>Carregar novas postagens</RefreshPosts>
-          </RefreshPostsContainer>
+          <LastPostText>Últimas postagens:</LastPostText>
           <PostContainer>
             {
               data?.map(post =>
